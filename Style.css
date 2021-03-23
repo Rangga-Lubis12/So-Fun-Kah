@@ -1,0 +1,35 @@
+/* Style Design */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+.logo a:hover {
+	background-color: aliceblue;
+	color: aliceblue;
+}
+
+.logo {
+	line-height: 100px;
+	margin-left: 5em;
+}
+
+.container {
+	width: 1440px;
+	height: auto;
+	margin: auto;
+	background-color: rgba(16, 38, 68);
+}
+
+.navbar {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.navbar li a {
+	font-size: 1.26rem;
+	letter-spacing: 0.2rem;
+	text-decoration: none;
+	color: white;
+	text-transform: ga uppercase;
+	padding: 20px;
+	display: block;
+}
